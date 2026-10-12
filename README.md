@@ -1,4 +1,4 @@
-# Modelamiento y construcción de una base de datos — ANFP (Fútbol Chileno)
+# Modelamiento y construcción de una base de datos — ANFP
 
 Este proyecto corresponde a la **Evaluación Final Transversal (EFT) — Semana 9** de la asignatura **Modelamiento de
 Bases de Datos** (PRY2204). Consiste en diseñar el modelo de datos de una asociación de fútbol (MER, MER extendido y
