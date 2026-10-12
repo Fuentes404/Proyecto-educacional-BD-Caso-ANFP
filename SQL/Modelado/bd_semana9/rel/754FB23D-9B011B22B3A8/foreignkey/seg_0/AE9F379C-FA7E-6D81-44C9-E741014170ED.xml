@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="AE9F379C-FA7E-6D81-44C9-E741014170ED" containerWithKeyObject="A58C4B5C-5E4A-C830-0A74-A5D4594B5A21" localFKIndex="DDC69F23-7CBF-EA76-6837-3811C1EC97BB" name="JUGADOR_NACIONALIDAD_FK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>799CDF8C-17CB-9B83-C659-F85B27A7D559</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<referredTableLongName>NACIONALIDAD</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9C33B2FA-8D8B-A596-745F-1F01761B6812</referredTableID>
+<keyObject>CCD584AB-20ED-1341-91CA-B02671F8EC68</keyObject>
+<referredKeyID>CCD584AB-20ED-1341-91CA-B02671F8EC68</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_nacion</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

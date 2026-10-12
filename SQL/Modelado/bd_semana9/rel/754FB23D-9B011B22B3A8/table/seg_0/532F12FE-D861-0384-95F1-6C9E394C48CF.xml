@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="532F12FE-D861-0384-95F1-6C9E394C48CF" name="ASOCIACION">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>3B5D4D90-303D-A9BB-5C13-C4AEB9816C14</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_asociacion" id="199F89E7-3436-69E1-68AD-D36742249DA3">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>75F1DB1D-D23E-C442-748A-52EC8857E81E</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_asociacion" id="B69D9D6B-AE28-1523-B7B2-D9EDB2BD1B4E">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>1B245BFE-43E2-A732-5254-89A8B10FBA48</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_creacion" id="CE44E499-7602-D075-AAAB-91C4D93FE0E4">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>A238DBC5-983A-A3DF-0719-6B31D8BDFB78</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_asociacion" id="2C6E47B1-A267-B6DB-4A39-C093DBA7B5BB">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>816C139D-E260-2AAF-DC34-A3CE2FC32496</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D28140B0-A3F9-E145-8108-5BCB59E1681D" name="ASOCIACION_PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>A214096B-82FE-7BC1-BCCA-ED3D4B6CCF9C</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="199F89E7-3436-69E1-68AD-D36742249DA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+<tableCheckConstraints itemClass="oracle.dbtools.crest.model.design.constraint.TableLevelConstraint">
+<tableCheckConstraint name="ASOCIACION_FECHA_CK" directorySegmentName="seg_0" id="15BD5B65-9E8F-FF93-A741-06099B5CF661">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:19:08 UTC</createdTime>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<rule><![CDATA[fecha_creacion >= DATE '1980-12-31']]></rule>
+</tableCheckConstraint>
+</tableCheckConstraints>
+</Table>

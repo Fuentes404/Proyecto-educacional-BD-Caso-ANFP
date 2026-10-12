@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9C33B2FA-8D8B-A596-745F-1F01761B6812" name="NACIONALIDAD">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>99B0B572-31FD-BA8B-CC74-F01CFBC7D8E2</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_nacion" id="90309816-042D-7B85-A960-A31E91140B4F">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>C4FC6605-B961-96FE-76F5-A3865EF78196</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementStartWith>210</autoIncrementStartWith>
+<autoIncrementIncrementBy>2</autoIncrementIncrementBy>
+<autoIncrementCycle>false</autoIncrementCycle>
+<autoIncrementGenerateTrigger>false</autoIncrementGenerateTrigger>
+</Column>
+<Column name="descripcion" id="580B4BEC-AC71-3FB1-96BF-A1F9F33CCB24">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>CA318704-5A1E-839C-4DFC-6F55CACABF3F</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCD584AB-20ED-1341-91CA-B02671F8EC68" name="NACIONALIDAD_PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>CCD712E0-CC87-8E0F-C6B9-42BE8787DCC2</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="90309816-042D-7B85-A960-A31E91140B4F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

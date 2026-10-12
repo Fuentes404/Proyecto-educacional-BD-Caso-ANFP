@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3B5D4D90-303D-A9BB-5C13-C4AEB9816C14" name="ASOCIACION">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 17:11:57 UTC</createdTime>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<engineerTo>
+<item key="754FB23D-6D41-55E6-C263-9B011B22B3A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_asociacion" id="75F1DB1D-D23E-C442-748A-52EC8857E81E">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 17:12:12 UTC</createdTime>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<engineerTo>
+<item key="754FB23D-6D41-55E6-C263-9B011B22B3A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_asociacion" id="1B245BFE-43E2-A732-5254-89A8B10FBA48">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 17:13:05 UTC</createdTime>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<engineerTo>
+<item key="754FB23D-6D41-55E6-C263-9B011B22B3A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_creacion" id="A238DBC5-983A-A3DF-0719-6B31D8BDFB78">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 17:14:19 UTC</createdTime>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<engineerTo>
+<item key="754FB23D-6D41-55E6-C263-9B011B22B3A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_asociacion" id="816C139D-E260-2AAF-DC34-A3CE2FC32496">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 17:14:59 UTC</createdTime>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<engineerTo>
+<item key="754FB23D-6D41-55E6-C263-9B011B22B3A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A214096B-82FE-7BC1-BCCA-ED3D4B6CCF9C" name="ASOCIACION PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 17:12:48 UTC</createdTime>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<engineerTo>
+<item key="754FB23D-6D41-55E6-C263-9B011B22B3A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>75F1DB1D-D23E-C442-748A-52EC8857E81E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

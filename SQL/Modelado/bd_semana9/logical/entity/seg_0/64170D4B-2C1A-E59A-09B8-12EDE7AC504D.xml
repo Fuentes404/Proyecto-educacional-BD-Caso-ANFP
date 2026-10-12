@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="64170D4B-2C1A-E59A-09B8-12EDE7AC504D" name="JUGADOR">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 16:46:28 UTC</createdTime>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<engineerTo>
+<item key="754FB23D-6D41-55E6-C263-9B011B22B3A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>E72B28F0-71F2-AFF0-764D-BF9DD36198B7</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="puesto" id="F6111B7E-18DB-93BC-52B2-545EABF5FB1F">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 16:46:39 UTC</createdTime>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<engineerTo>
+<item key="754FB23D-6D41-55E6-C263-9B011B22B3A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="monto_total_premios" id="DF236A2C-8ACB-A2AF-14EE-FD4B41FC4999">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 16:48:48 UTC</createdTime>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<engineerTo>
+<item key="754FB23D-6D41-55E6-C263-9B011B22B3A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio_egreso" id="BA186ECD-E44B-F8E5-5CB3-24273061AE4D">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 16:49:50 UTC</createdTime>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<engineerTo>
+<item key="754FB23D-6D41-55E6-C263-9B011B22B3A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_nacion" id="88760FD8-CC52-E8F2-7440-220495602BCC">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 19:27:48 UTC</createdTime>
+<generatorID>799CDF8C-17CB-9B83-C659-F85B27A7D559</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<engineerTo>
+<item key="754FB23D-6D41-55E6-C263-9B011B22B3A8" value="true"/>
+</engineerTo>
+<referedAttribute>C4FC6605-B961-96FE-76F5-A3865EF78196</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_escuela" id="EA6ED813-647E-A0DD-D33E-06475FE6AF36">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 19:28:43 UTC</createdTime>
+<generatorID>73B38252-100E-2363-A626-49819FB27AEC</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<engineerTo>
+<item key="754FB23D-6D41-55E6-C263-9B011B22B3A8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>F7812814-1D46-D47E-D8EF-DCC011C53548</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_asociacion" id="DA61548A-B9A8-02B7-C744-C37AE6AE4D80">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 19:29:55 UTC</createdTime>
+<generatorID>16C72CAA-32D9-6814-881F-B684A3D27706</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<engineerTo>
+<item key="754FB23D-6D41-55E6-C263-9B011B22B3A8" value="true"/>
+</engineerTo>
+<referedAttribute>75F1DB1D-D23E-C442-748A-52EC8857E81E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

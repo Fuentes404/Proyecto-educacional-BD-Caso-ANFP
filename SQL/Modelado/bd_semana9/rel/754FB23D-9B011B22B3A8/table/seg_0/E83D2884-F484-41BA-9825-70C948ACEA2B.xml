@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E83D2884-F484-41BA-9825-70C948ACEA2B" name="CLUB_FUTBOL">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>2E379860-7226-6F21-9A5C-E081B8809F03</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_club" id="26F5091D-7BC9-B147-BE61-8349679F4CE1">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>FD100723-2A44-487B-0220-1F1307EF0B59</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_club" id="04ECE223-6660-ECE3-3668-C09255B8A232">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>B782A4DE-1861-9AF8-2695-7F171D21CB39</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="patrimonio" id="1017F511-5F50-49BF-07EE-45977D4114C9">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>761A7689-A1D7-0EC5-F093-32C65E86CC6E</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ubicacion_calle" id="FF5C8BE6-563D-F0AE-A54B-6B078514F2B1">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>51AA511D-830D-A01D-FDB5-C385249A13B5</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_club" id="E4F01BB5-51A6-2F3A-518D-9F91B618F017">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>B308E459-490A-C164-3996-C7018745B2C5</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9EED8E1B-4831-FAE6-AA57-1B444B81F11D" name="CLUB_FUTBOL_PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>46C6A044-8C2D-89C5-CDAE-55D51AA20545</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26F5091D-7BC9-B147-BE61-8349679F4CE1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4F764523-A145-C5EB-C2C0-DC095C921B72" name="CLUB_FUTBOL__UN">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:15:12 UTC</createdTime>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="04ECE223-6660-ECE3-3668-C09255B8A232"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

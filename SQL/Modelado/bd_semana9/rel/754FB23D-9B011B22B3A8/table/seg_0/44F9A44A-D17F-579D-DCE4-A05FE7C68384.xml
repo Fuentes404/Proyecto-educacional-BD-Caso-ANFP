@@ -1,0 +1,93 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="44F9A44A-D17F-579D-DCE4-A05FE7C68384" name="JUGADOR_IDIOMA">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>EF6DC9D2-281C-98B7-E588-C9F2C956456D</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nivel_dominio" id="427DD052-4BEB-8BA0-F06A-0EEDCEDB020F">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>B6D2479E-A13C-FC66-16AF-C232672692B3</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JUGADOR_id_inscripcion" id="A529BD0E-C860-5C25-F918-EDEDB2E1AA92">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>8A81F7A2-3DA7-D056-4025-2E644B7CE164</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A70C8D9E-DE07-FA15-83BF-6F1B4472DCC3" referredColumn="16002830-7DED-A4F0-4CA9-BAFB0B309CFA"/>
+</associations>
+</Column>
+<Column name="IDIOMA_id_idioma" id="EE97E941-D700-8EF1-9341-31D761438868">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>1146A901-5394-7F3C-A195-E9D5CE19D6CA</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="924AFEDB-9CF1-155C-5A58-7074527E409E" referredColumn="C9E8BC31-4766-407F-EA16-8A87217F976D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4EC074B3-5B32-E9CC-416E-A3B1FDE94A49" name="JUGADOR_IDIOMA_PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>C6DB71B4-EE02-669B-21A2-2F0D4C8BF626</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A529BD0E-C860-5C25-F918-EDEDB2E1AA92"/>
+<colUsage columnID="EE97E941-D700-8EF1-9341-31D761438868"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6DA6336-05F3-E194-10D3-7B199FFA61F7" name="JUGADOR_IDIOMA_JUGADOR_FK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>1C53F1F0-0CE8-BD80-DD15-F29EE05421B1</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A529BD0E-C860-5C25-F918-EDEDB2E1AA92"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="07E1A2A1-01A7-57BC-5FFA-7B1FAB623D51" name="JUGADOR_IDIOMA_IDIOMA_FK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>FBE67B09-8AE0-334B-6B01-BF4137044774</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE97E941-D700-8EF1-9341-31D761438868"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

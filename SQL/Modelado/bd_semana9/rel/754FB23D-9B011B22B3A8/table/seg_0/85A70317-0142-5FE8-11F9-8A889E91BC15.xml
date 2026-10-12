@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85A70317-0142-5FE8-11F9-8A889E91BC15" name="PERSONAL_PLANTA">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>E0C3BCBC-B736-B2AC-64A1-A698EE888A55</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_inscripcion" id="B3C3D4FA-A353-1F36-9260-28064EEF03E7">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>17F11FAB-DD40-08AB-D1EF-87CF9A7C7829</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D4CC113C-A330-5A85-DB87-8CCC8680AA76" referredColumn="D325DE2B-41F3-5AFC-6D31-D7C70DC0E321"/>
+</associations>
+</Column>
+<Column name="horas_trabajadas" id="797B903F-247B-2DF8-7DC2-F9FC797B0F22">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>011DBB0B-7BFB-6C92-A6E5-51219307FD7D</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor_hora_extra" id="8EAE0F86-5A78-28E7-6534-D26A1D69EA5B">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>CFEE774B-172C-EC99-6DA3-D5C678B1D995</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>8</dataTypePrecision>
+<ownDataTypeParameters>,8,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLUB_FUTBOL_id_club" id="FB134D52-0935-655B-D1F5-216F18142B87">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>C9676A50-0036-7F4D-E87D-12D376D34D32</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5A1EE183-40E1-8EF1-629B-E1E3033F1E9C" referredColumn="26F5091D-7BC9-B147-BE61-8349679F4CE1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1C63CEBF-D17A-CA18-C9CD-61A4A35301C3" name="PERSONAL_PLANTA_PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>BF332475-55A4-BEFC-D4AD-39A2360A7832</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3C3D4FA-A353-1F36-9260-28064EEF03E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9C2F2C0E-6E74-AF91-92D2-537D0C67C5EE" name="PERSONAL_PLANTA_TRABAJADOR_FK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>0DBF6CFF-CF70-4FF2-1183-196319604A41</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B3C3D4FA-A353-1F36-9260-28064EEF03E7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4E02F439-0490-6328-3DE2-11ADC1F35B93" name="PERSONAL_PLANTA_CLUB_FUTBOL_FK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>529E2414-32FA-C4F3-85D3-AC99E2787531</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FB134D52-0935-655B-D1F5-216F18142B87"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

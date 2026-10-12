@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EF6DC9D2-281C-98B7-E588-C9F2C956456D" name="JUGADOR_IDIOMA">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 19:54:03 UTC</createdTime>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<engineerTo>
+<item key="754FB23D-6D41-55E6-C263-9B011B22B3A8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nivel_dominio" id="B6D2479E-A13C-FC66-16AF-C232672692B3">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 19:54:37 UTC</createdTime>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<engineerTo>
+<item key="754FB23D-6D41-55E6-C263-9B011B22B3A8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_inscripcion" id="8A81F7A2-3DA7-D056-4025-2E644B7CE164">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 19:55:49 UTC</createdTime>
+<generatorID>1C53F1F0-0CE8-BD80-DD15-F29EE05421B1</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<engineerTo>
+<item key="754FB23D-6D41-55E6-C263-9B011B22B3A8" value="true"/>
+</engineerTo>
+<referedAttribute>17F11FAB-DD40-08AB-D1EF-87CF9A7C7829</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_idioma" id="1146A901-5394-7F3C-A195-E9D5CE19D6CA">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 19:56:32 UTC</createdTime>
+<generatorID>FBE67B09-8AE0-334B-6B01-BF4137044774</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<engineerTo>
+<item key="754FB23D-6D41-55E6-C263-9B011B22B3A8" value="true"/>
+</engineerTo>
+<referedAttribute>BEA96A9B-5185-B63B-EB71-80E9DF418697</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C6DB71B4-EE02-669B-21A2-2F0D4C8BF626" name="JUGADOR_IDIOMA PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 19:55:49 UTC</createdTime>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<engineerTo>
+<item key="754FB23D-6D41-55E6-C263-9B011B22B3A8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8A81F7A2-3DA7-D056-4025-2E644B7CE164</attributeRef>
+<attributeRef>1146A901-5394-7F3C-A195-E9D5CE19D6CA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

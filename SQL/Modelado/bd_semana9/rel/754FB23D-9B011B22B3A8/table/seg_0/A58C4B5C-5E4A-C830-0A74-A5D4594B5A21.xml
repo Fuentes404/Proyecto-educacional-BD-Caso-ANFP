@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A58C4B5C-5E4A-C830-0A74-A5D4594B5A21" name="JUGADOR">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>64170D4B-2C1A-E59A-09B8-12EDE7AC504D</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_inscripcion" id="16002830-7DED-A4F0-4CA9-BAFB0B309CFA">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>17F11FAB-DD40-08AB-D1EF-87CF9A7C7829</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="91F9A63D-351E-3F93-D2E5-B9A707360336" referredColumn="D325DE2B-41F3-5AFC-6D31-D7C70DC0E321"/>
+</associations>
+</Column>
+<Column name="puesto" id="51BAD9B9-9D0D-8877-89C8-41D6266D7B64">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>F6111B7E-18DB-93BC-52B2-545EABF5FB1F</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="monto_total_premios" id="07F4FDD4-838B-0926-D235-96F467783FCB">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>DF236A2C-8ACB-A2AF-14EE-FD4B41FC4999</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>12</dataTypePrecision>
+<ownDataTypeParameters>,12,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio_egreso" id="25504477-E01F-8B0D-E3D6-93F7A6F5EE16">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>BA186ECD-E44B-F8E5-5CB3-24273061AE4D</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,4,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NACIONALIDAD_id_nacion" id="76DC458C-C36A-406D-235D-8E54C000BCD3">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>88760FD8-CC52-E8F2-7440-220495602BCC</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AE9F379C-FA7E-6D81-44C9-E741014170ED" referredColumn="90309816-042D-7B85-A960-A31E91140B4F"/>
+</associations>
+</Column>
+<Column name="ESCUELA_FUTBOL_id_escuela" id="70154D93-126D-36BD-297F-FAC5EF19E8EA">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>EA6ED813-647E-A0DD-D33E-06475FE6AF36</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2B33E110-5046-F7F5-687F-EAF0281AA742" referredColumn="D0BBB450-F835-0C60-307F-08C6DAB473EC"/>
+</associations>
+</Column>
+<Column name="ASOCIACION_id_asociacion" id="14F24822-92B2-1C5B-93CD-AB293E5E8D33">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>DA61548A-B9A8-02B7-C744-C37AE6AE4D80</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FDBE524B-3FD0-673B-0351-06249B24563B" referredColumn="199F89E7-3436-69E1-68AD-D36742249DA3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="113FBB8A-E433-842B-E24B-091A2DD2ADE6" name="JUGADOR_PK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>BF332475-55A4-BEFC-D4AD-39A2360A7832</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16002830-7DED-A4F0-4CA9-BAFB0B309CFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D2F4946-DBB9-A075-764F-80527524473C" name="JUGADOR_TRABAJADOR_FK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>88306720-DEDC-B850-2DEC-9386F8C49F82</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="16002830-7DED-A4F0-4CA9-BAFB0B309CFA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B1C840DF-C5AD-B586-05BC-09C83EEB65F1" name="JUGADOR_ESCUELA_FUTBOL_FK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>73B38252-100E-2363-A626-49819FB27AEC</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70154D93-126D-36BD-297F-FAC5EF19E8EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="914C8BB4-2E93-97FF-5703-45580FF1105F" name="JUGADOR_ASOCIACION_FK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>16C72CAA-32D9-6814-881F-B684A3D27706</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="14F24822-92B2-1C5B-93CD-AB293E5E8D33"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DDC69F23-7CBF-EA76-6837-3811C1EC97BB" name="JUGADOR_NACIONALIDAD_FK">
+<createdBy>Claudio Pc</createdBy>
+<createdTime>2026-10-12 20:03:29 UTC</createdTime>
+<generatorID>799CDF8C-17CB-9B83-C659-F85B27A7D559</generatorID>
+<ownerDesignName>bd_semana9</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="76DC458C-C36A-406D-235D-8E54C000BCD3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
