@@ -120,8 +120,8 @@ proyecto/
 │   └── MR.png                                     # Modelo Relacional
 └── sql/
     ├── modelo/                                    # Modelo de Oracle SQL Developer Data Modeler
-    ├── script_ddl.sql                             # Script DDL generado desde el modelo (creación de tablas)
-    └── PRY2204_EFT_S9_script.sql                  # Script SQL: eliminación, secuencia, tablas, poblamiento e informes
+    ├── Script DDL/ scrip ddl.sql                  # Script DDL generado desde el modelo (creación de tablas)
+    └── Script SQL/ PRY2204_EFT_S9_script.sql      # Script SQL: eliminación, secuencia, tablas, poblamiento e informes
 ```
 
 ## ▶️ Cómo ejecutar
